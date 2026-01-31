@@ -23,6 +23,36 @@
             width:50%;
             border-collapse:collapse;
         }
+        .gallery{
+            max-width: 12000px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .item{
+            overflow: hidden;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+        }
+        .item img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        .item:hover img{
+            transform: scale(1.1);
+        }
+        .item .title{
+            padding: 12px;
+            background-color: white;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -53,6 +83,26 @@
                    value="확인"
                    class="btn btn-primary">
         </form>
+
+<main class="gallery">
+    <div class="item"><a href=\happy사이트\gallery1.html><img src="\happy사이트\img\ai-generated-8587765_1920.jpg"></a>
+    <div class="title"><p>수학지식</p></div>
+    </div>
+    <div class="item"><a href=\happy사이트\gallery2.html><img src="\happy사이트\img\istockphoto-592392980-1024x1024.jpg"></a>
+    <div class="title"><p>과학지식</p></div>
+    </div>
+    <div class="item"><a href=\happy사이트\gallery3.html><img src="\happy사이트\img\istockphoto-172753885-1024x1024.jpg"></a>
+    <div class="title"><p>역사지식</p></div>
+    </div>
+    <div class="item"><a href=\happy사이트\gallery4.html><img src="\happy사이트\img\education-3704026_1920.jpg"></a>
+    <div class="title"><p>언어지식</p></div>
+    </div>
+    <div class="item"><a href=\happy사이트\gallery5.html><img src="\happy사이트\img\programming-1873854_1280.png"></a>
+    <div class="title"><p>프로그래밍 지식</p></div>
+    </div>
+    <div class="item"><a href=\happy사이트\gallery6.html><img src="\happy사이트\img\family-photo-827763_1280.jpg"></a>
+    <div class="title"><p>예절지식</p></div>
+    </div>
 
     <!-- <table>
         <tr>

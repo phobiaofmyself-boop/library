@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .survey_form{
+            margin-top: 100px;
+            margin-left: 30%;
+            background-color:rgba(0, 0, 128, 0.201);
+            /* text-align: center; */
+            width: 900px;
+            height: 700px;
+            border: 1px solid black
+        }
+        td {
+            white-space: nowrap;
+        }
+        table {
+            /* width:1%; */
+            border-collapse:collapse;
+            /* text-align: center; */
+            margin-left: 15%;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <b style="font-size: 70px;
+              margin-left: 40%;
+                color: navy">지식 나눔터</b>
+    <img src="https://image.utoimage.com/preview/cp994781/2024/10/202410010583_500.jpg", width="80">
+    <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="\happy사이트\list.html">게시판</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="\happy사이트\gallery.html">갤러리</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="\happy사이트\news.html">뉴스</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="\happy사이트\login.html">로그인</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    <form>
+            <input type="button"
+                   value="확인"
+                   class="btn btn-primary">
+        </form>
+
+    <!-- <table>
+        <tr>
+            <th>과일</th>
+            <th>가격</th>
+        </tr>
+        <tr>
+            <td style="background-color: red;">사과</td>
+            <td>500원</td>
+        </tr>
+        <tr>
+            <td style="background-color: yellow;">바나나</td>
+            <td>500원</td>
+        </tr>
+        <tr>
+
+            <td colspan="2">합계 1300원</td>
+        </tr>
+    </table> -->
+
+    <div class="survey_form">
+        <from action="" method="">
+        <table>
+        <form>
+            <tr>
+                <td colspan="2">
+                <h1 style="text-align: center;">설문조사</h1>
+                </td>
+                <!-- 이곳은 병합한 부분입니다 -->
+            </tr>
+            <tr>
+                <td>1 문항. 서비스 만족도</td>
+                <td>
+                    <input type="radio", name="servicesatisfaction", value="만족">만족
+                <input type="radio", name="servicesatisfaction", value="불만족(직접입력)">불만족(직접입력) <input type="text"></td>
+            </tr>
+            <tr>
+                <td>2 문항. 연령대</td>
+                <td>
+                    <div class="range-wrap">
+                        <span class="min">0</span>
+                        <input type="range" min="0" max="100">
+                        <span class="max">100</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>3 문항. 거주 지역</td>
+                <td>
+                    <select name="subject">
+                        <option>==선택해주세요==</option>
+                        <option value="서울">서울</option>
+                        <option value="경기">경기</option>
+                        <option value="인천">인천</option>
+                        <option value="강원">강원</option>
+                        <option value="충청">충청</option>
+                        <option value="경상">경상</option>
+                        <option value="전라">전라</option>
+                        <option value="제주">제주</option>
+                        <option value="세종">세종</option>
+                        <option value="대구">대구</option>
+                        <option value="대전">대전</option>
+                        <option value="광주">광주</option>
+                        <option value="울산">울산</option>
+                        <option value="부산">부산</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>4 문항. 가장 선호하는 게시판 카테고리</td>
+                <td>
+                    <input type="radio", name="category", value="자유게시판">자유게시판
+                    <input type="radio", name="category", value="놀라운 사실">놀라운 사실
+                    <input type="radio", name="category", value="새로운 발견">새로운 발견
+                    <input type="radio", name="category", value="기타">기타
+                </td>
+            </tr>
+            <tr>
+                <td>5 문항. 건의사항</td>
+                <td>
+                    <textarea name="memo2" rows="10" cols="30"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button"
+                           value="확인"
+                           class="btn btn-primary">
+                    <input type="button"
+                           value="취소"
+                           class="btn btn-danger">
+                </td>
+            </tr>
+        </table>
+
+        </form>
+    </div>
+</body>
+</html>
+</body>
+</html>
